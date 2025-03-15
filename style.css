@@ -1,3 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&family=Charmonman:wght@400;700&display=swap');
+.charmonman-regular {
+    font-family: "Charmonman", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.charmonman-bold {
+    font-family: "Charmonman", cursive;
+    font-weight: 700;
+    font-style: normal;
+}
+        
+.big-shoulders-regular {
+    font-family: "Big Shoulders", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}  
+.big-shoulders-bold {
+    font-family: "Big Shoulders", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+}
 * {
     padding: 0;
     margin: 0;
@@ -14,31 +39,34 @@ body {
 }
 #menu-bar > ul {
     text-align: center;
-    font-family: cursive;
-    font-size: 18px;
+    font-family: "Big Shoulders";
+    font-size: 25px;
     background-color: bisque;
-    width: 500px;
+    width: max-content;
     height: max-content;
     border-radius: 20px;
-       
+    ;
 }
-ul > li {
+#nav {
+    justify-content:space-around;
+}
+#nav > li {
     display: inline-block;
-    padding: 10px 10px 10px 10px ;
+    padding: 7px 20px 7px 20px;
+    font-weight: 600;
 }
-.line {
-    justify-items: center;
-    transform: translateY(-53px);
+#nav > li:hover {
+    color: rgb(144, 142, 142);
+    background-color: black;
 }
-#vertical-line {
+
+.dieuhuong {
+    list-style: none;
     text-align: center;
-    width: 500px;
-    font-size: 25px;
-    color: black;
+    border: 0.5px solid;
+    width: max-content;
+    justify-self: center;
 }
-.a1 {
-    transform: translateX(-92px);
-}
-.a2 {
-    transform: translateX(30px);
+.dieuhuong > li {
+    padding: 5px;
 }
