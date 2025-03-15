@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-image: url(https://suachualaptop24h.com/upload_images/images/2021/05/02/2561184c0d83292e2814a8db5dfe49e1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#menu-bar {
+    justify-items: center;
+    padding: 5px;
+}
+#menu-bar > ul {
+    text-align: center;
+    font-family: cursive;
+    font-size: 18px;
+    background-color: bisque;
+    width: 500px;
+    height: max-content;
+    border-radius: 20px;
+       
+}
+ul > li {
+    display: inline-block;
+    padding: 10px 10px 10px 10px ;
+}
+.line {
+    justify-items: center;
+    transform: translateY(-53px);
+}
+#vertical-line {
+    text-align: center;
+    width: 500px;
+    font-size: 25px;
+    color: black;
+}
+.a1 {
+    transform: translateX(-92px);
+}
+.a2 {
+    transform: translateX(30px);
+}
